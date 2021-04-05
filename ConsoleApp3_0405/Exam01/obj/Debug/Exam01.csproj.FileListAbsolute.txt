@@ -1,0 +1,7 @@
+D:\V_S_SHW\ConsoleApp3_0405\Exam01\bin\Debug\Exam01.exe.config
+D:\V_S_SHW\ConsoleApp3_0405\Exam01\bin\Debug\Exam01.exe
+D:\V_S_SHW\ConsoleApp3_0405\Exam01\bin\Debug\Exam01.pdb
+D:\V_S_SHW\ConsoleApp3_0405\Exam01\obj\Debug\Exam01.csproj.CoreCompileInputs.cache
+D:\V_S_SHW\ConsoleApp3_0405\Exam01\obj\Debug\Exam01.exe
+D:\V_S_SHW\ConsoleApp3_0405\Exam01\obj\Debug\Exam01.pdb
+D:\V_S_SHW\ConsoleApp3_0405\Exam01\obj\Debug\Exam01.csprojAssemblyReference.cache

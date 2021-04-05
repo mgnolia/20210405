@@ -1,0 +1,7 @@
+D:\V_S_SHW\ConsoleApp3_0405\ConsoleApp3_0405\bin\Debug\ConsoleApp3_0405.exe.config
+D:\V_S_SHW\ConsoleApp3_0405\ConsoleApp3_0405\bin\Debug\ConsoleApp3_0405.exe
+D:\V_S_SHW\ConsoleApp3_0405\ConsoleApp3_0405\bin\Debug\ConsoleApp3_0405.pdb
+D:\V_S_SHW\ConsoleApp3_0405\ConsoleApp3_0405\obj\Debug\ConsoleApp3_0405.csprojAssemblyReference.cache
+D:\V_S_SHW\ConsoleApp3_0405\ConsoleApp3_0405\obj\Debug\ConsoleApp3_0405.csproj.CoreCompileInputs.cache
+D:\V_S_SHW\ConsoleApp3_0405\ConsoleApp3_0405\obj\Debug\ConsoleApp3_0405.exe
+D:\V_S_SHW\ConsoleApp3_0405\ConsoleApp3_0405\obj\Debug\ConsoleApp3_0405.pdb
