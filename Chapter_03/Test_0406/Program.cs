@@ -95,7 +95,7 @@ namespace Test_0406
             if (M<0)
             {
                 M += 60;
-                M -= 1;
+                H -= 1;
             }
             if (H < 0)
                 H += 24;

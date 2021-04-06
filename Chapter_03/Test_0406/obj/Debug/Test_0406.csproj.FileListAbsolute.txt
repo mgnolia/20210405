@@ -4,3 +4,4 @@ D:\swh\20210405\Chapter_03\Test_0406\bin\Debug\Test_0406.pdb
 D:\swh\20210405\Chapter_03\Test_0406\obj\Debug\Test_0406.csproj.CoreCompileInputs.cache
 D:\swh\20210405\Chapter_03\Test_0406\obj\Debug\Test_0406.exe
 D:\swh\20210405\Chapter_03\Test_0406\obj\Debug\Test_0406.pdb
+D:\swh\20210405\Chapter_03\Test_0406\obj\Debug\Test_0406.csprojAssemblyReference.cache
