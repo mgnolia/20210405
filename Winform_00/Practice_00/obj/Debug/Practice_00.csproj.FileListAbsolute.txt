@@ -1,0 +1,14 @@
+D:\swh\20210405\Winform_00\Practice_00\bin\Debug\Practice_00.exe.config
+D:\swh\20210405\Winform_00\Practice_00\bin\Debug\Practice_00.exe
+D:\swh\20210405\Winform_00\Practice_00\bin\Debug\Practice_00.pdb
+D:\swh\20210405\Winform_00\Practice_00\bin\Debug\MaterialSkin.dll
+D:\swh\20210405\Winform_00\Practice_00\bin\Debug\SunnyUI.Common.dll
+D:\swh\20210405\Winform_00\Practice_00\bin\Debug\SunnyUI.dll
+D:\swh\20210405\Winform_00\Practice_00\obj\Debug\Practice_00.csprojAssemblyReference.cache
+D:\swh\20210405\Winform_00\Practice_00\obj\Debug\Practice_00.Form1.resources
+D:\swh\20210405\Winform_00\Practice_00\obj\Debug\Practice_00.Properties.Resources.resources
+D:\swh\20210405\Winform_00\Practice_00\obj\Debug\Practice_00.csproj.GenerateResource.cache
+D:\swh\20210405\Winform_00\Practice_00\obj\Debug\Practice_00.csproj.CoreCompileInputs.cache
+D:\swh\20210405\Winform_00\Practice_00\obj\Debug\Practice_00.csproj.CopyComplete
+D:\swh\20210405\Winform_00\Practice_00\obj\Debug\Practice_00.exe
+D:\swh\20210405\Winform_00\Practice_00\obj\Debug\Practice_00.pdb

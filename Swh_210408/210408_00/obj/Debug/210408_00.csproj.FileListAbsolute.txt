@@ -1,0 +1,7 @@
+D:\swh\20210405\Swh_210408\210408_00\bin\Debug\210408_00.exe.config
+D:\swh\20210405\Swh_210408\210408_00\bin\Debug\210408_00.exe
+D:\swh\20210405\Swh_210408\210408_00\bin\Debug\210408_00.pdb
+D:\swh\20210405\Swh_210408\210408_00\obj\Debug\210408_00.csprojAssemblyReference.cache
+D:\swh\20210405\Swh_210408\210408_00\obj\Debug\210408_00.csproj.CoreCompileInputs.cache
+D:\swh\20210405\Swh_210408\210408_00\obj\Debug\210408_00.exe
+D:\swh\20210405\Swh_210408\210408_00\obj\Debug\210408_00.pdb
