@@ -1,0 +1,10 @@
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\bin\Debug\Chapter_05Answer.exe.config
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\bin\Debug\Chapter_05Answer.exe
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\bin\Debug\Chapter_05Answer.pdb
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\obj\Debug\Chapter_05Answer.csprojAssemblyReference.cache
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\obj\Debug\Chapter_05Answer.Form1.resources
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\obj\Debug\Chapter_05Answer.Properties.Resources.resources
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\obj\Debug\Chapter_05Answer.csproj.GenerateResource.cache
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\obj\Debug\Chapter_05Answer.csproj.CoreCompileInputs.cache
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\obj\Debug\Chapter_05Answer.exe
+D:\swh\20210405\Chapter_05Answer\Chapter_05Answer\obj\Debug\Chapter_05Answer.pdb

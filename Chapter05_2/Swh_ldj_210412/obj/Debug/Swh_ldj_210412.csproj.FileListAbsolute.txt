@@ -1,0 +1,10 @@
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\bin\Debug\Swh_ldj_210412.exe.config
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\bin\Debug\Swh_ldj_210412.exe
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\bin\Debug\Swh_ldj_210412.pdb
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\obj\Debug\Swh_ldj_210412.csprojAssemblyReference.cache
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\obj\Debug\Swh_ldj_210412.Form1.resources
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\obj\Debug\Swh_ldj_210412.Properties.Resources.resources
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\obj\Debug\Swh_ldj_210412.csproj.GenerateResource.cache
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\obj\Debug\Swh_ldj_210412.csproj.CoreCompileInputs.cache
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\obj\Debug\Swh_ldj_210412.exe
+D:\swh\20210405\Chapter05_2\Swh_ldj_210412\obj\Debug\Swh_ldj_210412.pdb

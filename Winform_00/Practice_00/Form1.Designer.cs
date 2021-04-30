@@ -29,114 +29,126 @@ namespace Practice_00
         /// </summary>
         private void InitializeComponent()
         {
-            this.uiButton1 = new Sunny.UI.UIButton();
-            this.uiButton2 = new Sunny.UI.UIButton();
-            this.uiButton3 = new Sunny.UI.UIButton();
-            this.uiButton4 = new Sunny.UI.UIButton();
-            this.uiButton5 = new Sunny.UI.UIButton();
-            this.uiButton6 = new Sunny.UI.UIButton();
+            this.number_view1 = new Sunny.UI.UIButton();
+            this.number_view6 = new Sunny.UI.UIButton();
+            this.number_view5 = new Sunny.UI.UIButton();
+            this.number_view4 = new Sunny.UI.UIButton();
+            this.number_view3 = new Sunny.UI.UIButton();
+            this.number_view2 = new Sunny.UI.UIButton();
+            this.viewbutton = new Sunny.UI.UIButton();
             this.SuspendLayout();
             // 
-            // uiButton1
+            // number_view1
             // 
-            this.uiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton1.Location = new System.Drawing.Point(90, 67);
-            this.uiButton1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton1.Name = "uiButton1";
-            this.uiButton1.Radius = 100;
-            this.uiButton1.Size = new System.Drawing.Size(100, 100);
-            this.uiButton1.TabIndex = 4;
-            this.uiButton1.Text = "uiButton1";
-            this.uiButton1.Click += new System.EventHandler(this.uiButton1_Click);
+            this.number_view1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.number_view1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.number_view1.Location = new System.Drawing.Point(90, 67);
+            this.number_view1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.number_view1.Name = "number_view1";
+            this.number_view1.Radius = 100;
+            this.number_view1.Size = new System.Drawing.Size(100, 100);
+            this.number_view1.TabIndex = 4;
+            this.number_view1.Text = "uiButton111";
             // 
-            // uiButton2
+            // number_view6
             // 
-            this.uiButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton2.Location = new System.Drawing.Point(620, 67);
-            this.uiButton2.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton2.Name = "uiButton2";
-            this.uiButton2.Radius = 100;
-            this.uiButton2.Size = new System.Drawing.Size(100, 100);
-            this.uiButton2.TabIndex = 5;
-            this.uiButton2.Text = "uiButton2";
+            this.number_view6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.number_view6.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.number_view6.Location = new System.Drawing.Point(620, 67);
+            this.number_view6.MinimumSize = new System.Drawing.Size(1, 1);
+            this.number_view6.Name = "number_view6";
+            this.number_view6.Radius = 100;
+            this.number_view6.Size = new System.Drawing.Size(100, 100);
+            this.number_view6.TabIndex = 5;
+            this.number_view6.Text = "uiButton2";
             // 
-            // uiButton3
+            // number_view5
             // 
-            this.uiButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton3.Location = new System.Drawing.Point(514, 67);
-            this.uiButton3.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton3.Name = "uiButton3";
-            this.uiButton3.Radius = 100;
-            this.uiButton3.Size = new System.Drawing.Size(100, 100);
-            this.uiButton3.TabIndex = 6;
-            this.uiButton3.Text = "uiButton3";
+            this.number_view5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.number_view5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.number_view5.Location = new System.Drawing.Point(514, 67);
+            this.number_view5.MinimumSize = new System.Drawing.Size(1, 1);
+            this.number_view5.Name = "number_view5";
+            this.number_view5.Radius = 100;
+            this.number_view5.Size = new System.Drawing.Size(100, 100);
+            this.number_view5.TabIndex = 6;
+            this.number_view5.Text = "uiButton3";
             // 
-            // uiButton4
+            // number_view4
             // 
-            this.uiButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton4.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton4.Location = new System.Drawing.Point(408, 67);
-            this.uiButton4.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton4.Name = "uiButton4";
-            this.uiButton4.Radius = 100;
-            this.uiButton4.Size = new System.Drawing.Size(100, 100);
-            this.uiButton4.TabIndex = 7;
-            this.uiButton4.Text = "uiButton4";
+            this.number_view4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.number_view4.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.number_view4.Location = new System.Drawing.Point(408, 67);
+            this.number_view4.MinimumSize = new System.Drawing.Size(1, 1);
+            this.number_view4.Name = "number_view4";
+            this.number_view4.Radius = 100;
+            this.number_view4.Size = new System.Drawing.Size(100, 100);
+            this.number_view4.TabIndex = 7;
+            this.number_view4.Text = "uiButton4";
             // 
-            // uiButton5
+            // number_view3
             // 
-            this.uiButton5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton5.Location = new System.Drawing.Point(302, 67);
-            this.uiButton5.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton5.Name = "uiButton5";
-            this.uiButton5.Radius = 100;
-            this.uiButton5.Size = new System.Drawing.Size(100, 100);
-            this.uiButton5.TabIndex = 8;
-            this.uiButton5.Text = "uiButton5";
+            this.number_view3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.number_view3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.number_view3.Location = new System.Drawing.Point(302, 67);
+            this.number_view3.MinimumSize = new System.Drawing.Size(1, 1);
+            this.number_view3.Name = "number_view3";
+            this.number_view3.Radius = 100;
+            this.number_view3.Size = new System.Drawing.Size(100, 100);
+            this.number_view3.TabIndex = 8;
+            this.number_view3.Text = "uiButton5";
             // 
-            // uiButton6
+            // number_view2
             // 
-            this.uiButton6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton6.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton6.Location = new System.Drawing.Point(196, 67);
-            this.uiButton6.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton6.Name = "uiButton6";
-            this.uiButton6.Radius = 100;
-            this.uiButton6.Size = new System.Drawing.Size(100, 100);
-            this.uiButton6.TabIndex = 9;
-            this.uiButton6.Text = "uiButton6";
+            this.number_view2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.number_view2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.number_view2.Location = new System.Drawing.Point(196, 67);
+            this.number_view2.MinimumSize = new System.Drawing.Size(1, 1);
+            this.number_view2.Name = "number_view2";
+            this.number_view2.Radius = 100;
+            this.number_view2.Size = new System.Drawing.Size(100, 100);
+            this.number_view2.TabIndex = 9;
+            this.number_view2.Text = "uiButton6";
+            // 
+            // viewbutton
+            // 
+            this.viewbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.viewbutton.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.viewbutton.Location = new System.Drawing.Point(341, 385);
+            this.viewbutton.MinimumSize = new System.Drawing.Size(1, 1);
+            this.viewbutton.Name = "viewbutton";
+            this.viewbutton.Size = new System.Drawing.Size(100, 35);
+            this.viewbutton.TabIndex = 10;
+            this.viewbutton.Text = "uiButton1";
+            this.viewbutton.Click += new System.EventHandler(this.viewbutton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.uiButton6);
-            this.Controls.Add(this.uiButton5);
-            this.Controls.Add(this.uiButton4);
-            this.Controls.Add(this.uiButton3);
-            this.Controls.Add(this.uiButton2);
-            this.Controls.Add(this.uiButton1);
+            this.Controls.Add(this.viewbutton);
+            this.Controls.Add(this.number_view2);
+            this.Controls.Add(this.number_view3);
+            this.Controls.Add(this.number_view4);
+            this.Controls.Add(this.number_view5);
+            this.Controls.Add(this.number_view6);
+            this.Controls.Add(this.number_view1);
             this.Name = "Form1";
             this.StyleCustomMode = true;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private Sunny.UI.UIButton uiButton1;
-        private Sunny.UI.UIButton uiButton2;
-        private Sunny.UI.UIButton uiButton3;
-        private Sunny.UI.UIButton uiButton4;
-        private Sunny.UI.UIButton uiButton5;
-        private Sunny.UI.UIButton uiButton6;
+        private Sunny.UI.UIButton number_view1;
+        private Sunny.UI.UIButton number_view6;
+        private Sunny.UI.UIButton number_view5;
+        private Sunny.UI.UIButton number_view4;
+        private Sunny.UI.UIButton number_view3;
+        private Sunny.UI.UIButton number_view2;
+        private Sunny.UI.UIButton viewbutton;
     }
 }
 

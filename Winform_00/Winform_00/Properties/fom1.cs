@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Winform_00.Properties
 {
-    class fom1
+    class From1
     {
     }
 }

@@ -16,31 +16,61 @@ namespace Practice_00
         public Form1()
         {
             InitializeComponent();
+            MessageBox.Show("Hello Lotto");
+            viewbutton.Text = "번호는 뭘까요";
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void viewbutton_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("무엇을 드셨나요?");
 
-        }
+            Random r = new Random();
+            //r.Next(1,46) => 1이상 46미만
+            //MessageBox.Show(r.Next(1, 46).ToString());
 
-        private void uiSymbolButton1_Click(object sender, EventArgs e)
-        {
 
-        }
+            int[] rN = new int[7];
+            for (int i = 0; i < rN.Length; i++)
+            {
+                rN[i] = r.Next(1, 46);
+                for (int j = 0; j < i; j++)
+                {
+                    if (rN[i] == rN[j])
+                    {
+                        i--;
+                        break;
+                    }
+                }
 
-        private void Form1_Paint(object sender, PaintEventArgs e)
-        {
-            //e.Graphics.FillEllipse(Brushes.Crimson, 150, 50, 100, 100);
-        }
+            }
 
-        private void uiButton1_Click(object sender, EventArgs e)
-        {
+            
 
-        }
+            // r.Next(10) //0이상이면서 10미만의 숫자 하나 출력
+            number_view1.Text = rN[0].ToString();
+            number_view2.Text = rN[1].ToString();
+            number_view3.Text = rN[2].ToString();
+            number_view4.Text = rN[3].ToString();
+            number_view5.Text = rN[4].ToString();
+            number_view6.Text = rN[5].ToString();
+            //숫자 정렬 방법1
+            //Array.Sort(rN);
+            //숫자 정렬 방법2
+            for (int i = 0; i < rN.Length; i++)
+            {
+                for (int j = 0; j < rN.Length-1; j++)
+                {
+                    if (rN[j]>rN[j+1])
+                    {
+                        int temp2 = rN[j];
+                        rN[j] = rN[j + 1];
+                        rN[j + 1] = temp2;
+                    }
+                }
 
-        private void uiFlowLayoutPanel1_Click(object sender, EventArgs e)
-        {
-
+            }
         }
     }
 }
+
+

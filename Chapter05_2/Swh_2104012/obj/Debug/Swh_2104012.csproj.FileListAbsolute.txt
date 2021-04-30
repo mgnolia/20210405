@@ -1,0 +1,10 @@
+D:\swh\20210405\Chapter05_2\Swh_2104012\obj\Debug\Swh_2104012.csprojAssemblyReference.cache
+D:\swh\20210405\Chapter05_2\Swh_2104012\obj\Debug\Swh_2104012.Form1.resources
+D:\swh\20210405\Chapter05_2\Swh_2104012\obj\Debug\Swh_2104012.Properties.Resources.resources
+D:\swh\20210405\Chapter05_2\Swh_2104012\obj\Debug\Swh_2104012.csproj.GenerateResource.cache
+D:\swh\20210405\Chapter05_2\Swh_2104012\obj\Debug\Swh_2104012.csproj.CoreCompileInputs.cache
+D:\swh\20210405\Chapter05_2\Swh_2104012\bin\Debug\Swh_2104012.exe.config
+D:\swh\20210405\Chapter05_2\Swh_2104012\bin\Debug\Swh_2104012.exe
+D:\swh\20210405\Chapter05_2\Swh_2104012\bin\Debug\Swh_2104012.pdb
+D:\swh\20210405\Chapter05_2\Swh_2104012\obj\Debug\Swh_2104012.exe
+D:\swh\20210405\Chapter05_2\Swh_2104012\obj\Debug\Swh_2104012.pdb
