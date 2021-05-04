@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Seal
@@ -17,7 +12,7 @@ namespace Seal
         bool isCreated = false;
 
         List<Skill> skillList = new List<Skill>();
-
+        List<SkillResult> ResultList = new List<SkillResult>();
         public MainForm()
         {
             InitializeComponent();
@@ -31,6 +26,7 @@ namespace Seal
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            //dataGridView1.DataSource = 
             //comboBox9.SelectedIndex = 0;
             //comboBox10.SelectedIndex = 0;
             //comboBox11.SelectedIndex = 0;
@@ -42,7 +38,7 @@ namespace Seal
             //sum23.SelectedIndex = 0; 
 
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 4; i++)
             {
                 Skill skill = new Skill
                 {
@@ -66,7 +62,7 @@ namespace Seal
                 Controls.Add(skillList[i].Earing2);
                 Controls.Add(skillList[i].Ring1);
                 Controls.Add(skillList[i].Ring1Seal);
-                Controls.Add(skillList[i].Ring2);
+                Controls.Add(skillList[i].Ring2); 
                 Controls.Add(skillList[i].Ring2Seal);
 
             }
@@ -81,6 +77,14 @@ namespace Seal
                 skillList[i].Ring1Seal.Location = new Point(150 + i * 170, 300);
                 skillList[i].Ring2.Location = new Point(150 + i * 170, 340);
                 skillList[i].Ring2Seal.Location = new Point(150 + i * 170, 380);
+                skillList[i].Abilitystone.Text = 0.ToString();
+                skillList[i].Necklace.Text = 0.ToString();
+                skillList[i].Earing1.Text = 0.ToString();
+                skillList[i].Earing2.Text = 0.ToString();
+                skillList[i].Ring1.Text = 0.ToString();
+                skillList[i].Ring1Seal.Text = 0.ToString();
+                skillList[i].Ring2.Text = 0.ToString();
+                skillList[i].Ring2Seal.Text = 0.ToString();
 
             }
 
@@ -92,7 +96,7 @@ namespace Seal
                     skillList[i].AllSkill.Items.Add(item);
                 }
 
-                for (int j = 1; j <= 4; j++)
+                for (int j = 0; j <= 4; j++)
                 {
                     skillList[i].Ring1Seal.Items.Add(j*3);
                     skillList[i].Ring2Seal.Items.Add(j*3);
@@ -102,31 +106,70 @@ namespace Seal
             }
 
         }
-        private void tabControl1_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
-            if (isCreated == false && tabControl1.SelectedIndex == tabControl1.TabPages.Count - 1)
-            {
-
-                isCreated = true;
-                tabPages.Add(new TabPage());
-                tabControl1.TabPages.Insert(tabControl1.TabPages.Count - 1, tabPages[tabPages.Count - 1]);
-                tabControl1.SelectedTab = tabPages[tabPages.Count - 1];
-
-            }
-            else
-            {
-                isCreated = false;        
-            }
-                    
-
-
-
-        }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
 
+            try
+            {
+                for (int i = 0; i < skillList.Count; i++)
+                {
+                    int sum = 0;
+
+                    sum += Convert.ToInt32(skillList[i].Abilitystone.Text);
+                    sum += Convert.ToInt32(skillList[i].Necklace.Text);
+                    sum += Convert.ToInt32(skillList[i].Earing1.Text);
+                    sum += Convert.ToInt32(skillList[i].Earing2.Text);
+                    sum += Convert.ToInt32(skillList[i].Ring1.Text);
+                    sum += Convert.ToInt32(skillList[i].Ring1Seal.Text);
+                    sum += Convert.ToInt32(skillList[i].Ring2.Text);
+                    sum += Convert.ToInt32(skillList[i].Ring2Seal.Text);
+
+                    int level = 0;
+                    int over = sum % 5;
+
+                    if (sum>=0 && sum<=4)
+                    {
+                        level = 0;
+                    }
+
+                    else if (sum>=5 && sum<= 9)
+                    {
+                        level = 1;
+                    }
+                    else if (sum>=10 && sum<=14)
+                    {
+                        level = 2;
+                    }
+                    else
+                    {
+                        level = 3;
+                    }
+                    string format = level.ToString();
+                    if (level > 0 && over > 0)
+                    {
+                        format += "(+" + over + ")";
+                    }
+
+                    ResultList.Add(new SkillResult
+                    {
+                        Name = skillList[i].AllSkill.Text,
+                        Total = sum,
+                        Level = format
+
+                    });
+
+                }
+                dataGridView1.DataSource = null;
+                dataGridView1.DataSource = ResultList;
+
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("숫자를 입력해주세요.");
+
+            }
         }
     }
 }
